@@ -20,4 +20,4 @@ class MytestlibbTestConan(ConanFile):
         self.copy('*.so*', dst='bin', src='lib')
 
     def test(self):
-        print "nothing to do"
+        print("nothing to do")
