@@ -5,6 +5,7 @@ from conans import ConanFile, CMake, tools
 
 class MytestlibbTestConan(ConanFile):
     name = "MytestlibbTestConan"
+    description = "Test conan package."
     settings = "os", "compiler", "build_type", "arch"
     generators = "cmake"
 
