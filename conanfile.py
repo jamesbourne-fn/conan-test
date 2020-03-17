@@ -7,12 +7,14 @@ class MytestlibbConan(ConanFile):
     url = "https://blah.co.uk"
     url_version = "1.2.5"
     author = "james.bourne"
-    description = "Test conan package, I have, changing the recipe"
+    description = "Test conan package"
     settings = "os", "compiler", "build_type", "arch"
     options = {"shared": [True, False]}
     default_options = {"shared": False}
     generators = "cmake"
     exports_sources = "src/*", "!conanfile.py"
+    package_originator = "Foundry"
+    package_exportable = True
     
 
     def build(self):
