@@ -7,7 +7,7 @@ class MytestlibbConan(ConanFile):
     url = "https://blah.co.uk"
     url_version = "1.2.5"
     author = "james.bourne"
-    description = "Test conan package"
+    description = "Test conan package, change to recipe"
     settings = "os", "compiler", "build_type", "arch"
     options = {"shared": [True, False]}
     default_options = {"shared": False}
