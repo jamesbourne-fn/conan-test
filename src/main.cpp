@@ -1,7 +1,14 @@
 #include <iostream>
+#include <string>
+
+void print(std::string msg)
+{
+	std::cout << msg << std::endl;
+}
+
 
 int main(int argc, char *argv[]) 
 {
-	std::cout << "Hello World!!" << std::endl;
+	print("Hello World!!");
     return 0;
 }
