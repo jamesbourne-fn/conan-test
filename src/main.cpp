@@ -1,14 +1,14 @@
 #include <iostream>
 #include <string>
 
-void print(std::string msg)
+void print(std::ostream& os, std::string msg)
 {
-	std::cout << msg << std::endl;
+    os << msg << std::endl;
 }
 
 
 int main(int argc, char *argv[]) 
 {
-	print("Hello World!!");
+    print(std::cout, "Hello World!!");
     return 0;
 }
