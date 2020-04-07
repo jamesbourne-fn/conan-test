@@ -24,6 +24,17 @@ int multiply(int lhs, int rhs)
 }
 
 /**
+ * This is a utility subract method
+ * @param lhs The lhs value to subtract from
+ * @param rhs The rhs value to subtract
+ * @return The result of the subtract 
+ */
+int subtract(int lhs, int rhs)
+{
+    return lhs - rhs;  
+}
+
+/**
  * This is a utility add method
  * @param lhs The lhs value to add
  * @param rhs The rhs value to add
