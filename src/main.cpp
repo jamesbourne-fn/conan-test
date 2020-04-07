@@ -2,6 +2,17 @@
 #include <string>
 
 /**
+ * This is a utility divide method
+ * @param value The value to be divided
+ * @param divisor The divisor to divide by
+ * @return The result of the divide 
+ */
+float divide(int value, int divisor)
+{
+    return lhs / rhs;  
+}
+
+/**
  * This is a utility multiply method
  * @param lhs The lhs factor to use
  * @param rhs The rhs factor to use
