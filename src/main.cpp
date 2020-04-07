@@ -2,6 +2,17 @@
 #include <string>
 
 /**
+ * This is a utility multiply method
+ * @param lhs The lhs factor to use
+ * @param rhs The rhs factor to use
+ * @return The result of the multiply 
+ */
+int multiply(int lhs, int rhs)
+{
+    return lhs * rhs;  
+}
+
+/**
  * This is a utility add method
  * @param lhs The lhs value to add
  * @param rhs The rhs value to add
