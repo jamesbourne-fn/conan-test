@@ -15,6 +15,7 @@ class MytestlibbConan(ConanFile):
     exports_sources = "src/*", "!conanfile.py"
     package_originator = "Foundry"
     package_exportable = True
+    revision_mode = "scm"
     
 
     def build(self):
