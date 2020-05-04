@@ -12,7 +12,7 @@ class MytestlibbConan(ConanFile):
     options = {"shared": [True, False]}
     default_options = {"shared": False}
     generators = "cmake"
-    exports_sources = "src/*", "!conanfile.py"
+    exports_sources = "*"
     package_originator = "Foundry"
     package_exportable = True
     revision_mode = "scm"
