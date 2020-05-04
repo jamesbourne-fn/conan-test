@@ -9,7 +9,7 @@
  */
 float divide(int value, int divisor)
 {
-    return lhs / rhs;  
+    return value / divisor;  
 }
 
 /**
